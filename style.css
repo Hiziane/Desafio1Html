@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header,footer{ 
+    width:100% ;
+    background: black;
+    font-family: helvetica;
+    color: white;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+header{
+    height: 40px;
+}
+footer{
+    text-align: center;
+    height: 80px;
+    padding: 25px;
+}
+main{
+    width: 50%;
+    height: 200px;
+    display: flex;
+}
+
+#ajustemargem{
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#logo{
+    padding: 2px;
+    width: 50%;
+    margin: 0 0 0 50px;
+    border: 1px solid black;
+}
+
+.flex{
+    display: flex;
+}
+
+a.go:hover{
+    background-color: red;/*coloca cor quando o mouse passa por cima dele*/
+    color: white;
+}
+
+.pontilhado{
+    border-right: 3px dashed #888282;
+}
+
+#ajusteTexto{
+    width: 80%;
+    text-align: center;
+    margin: 10px 10px 0 10px;
+}
+
+.email{
+    margin-top: 10px;
+    width: 100%;
+    text-align: left;
+    padding: 50px;
+}
+
+div#content-header{
+    border:1px solid black; 
+    height: 180px;
+    color: black;
+    text-align: justify;
+    margin: 10px 10px 20px 50px;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+}
+#ajustelateral{
+    width: 50%;
+    text-align: right;
+    
+}
+
+#bordabotao{
+    border-radius: 30px;
+    background: yellow;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.bordalink{
+    padding-left: 40px;
+    padding-right: 40px;
+}
